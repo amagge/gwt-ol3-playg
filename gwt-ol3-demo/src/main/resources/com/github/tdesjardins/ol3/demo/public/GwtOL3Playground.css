@@ -57,20 +57,3 @@ body {
 	color: #FFF;
 	background: rgba(0,60,136,.7);}
 .gwt-TabLayoutPanelTabInner {}
-
-.popupinfo {
-	position: absolute;
-	height: 1px;
-	width: 1px;
-	z-index: 100;
-	border-top-color: white;
-	border: 2px solid white;}
-
-.tooltip.in {
-	opacity: 1;}
-
-.tooltip.top .tooltip-arrow {
-	border-top-color: white;}
-
-.tooltip-inner {
-	border: 2px solid white;}

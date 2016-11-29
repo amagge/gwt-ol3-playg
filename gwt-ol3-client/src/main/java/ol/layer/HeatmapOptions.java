@@ -11,7 +11,7 @@ import ol.Extent;
  *
  */
 @JsType(isNative = true)
-public interface HeatmapOptions extends VectorLayerOptions {
+public interface HeatMapLayerOptions extends VectorLayerOptions {
 	@JsProperty
 	void setGradient(String[] gradient);
 	
