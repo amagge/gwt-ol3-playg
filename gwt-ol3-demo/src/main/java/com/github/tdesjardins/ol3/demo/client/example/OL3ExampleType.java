@@ -20,7 +20,9 @@ public enum OL3ExampleType {
     TileExample(new TileExample()),
     WmsExample(new WmsExample()),
     WmtsExample(new WmtsExample()),
-    XyzExample(new XyzExample());
+    XyzExample(new XyzExample()),
+    HeatmapExample(new HeatmapExample()),
+    QuakeKMLExample(new QuakeKMLExample());
 
     private transient Example example;
 
