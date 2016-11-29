@@ -1,0 +1,13 @@
+binding: user.agent=safari
+Compiling module com.github.tdesjardins.ol3.demo.GwtOL3Playground
+   Unification traversed 1241 fields and methods and 345 types. 6 are considered part of the current module and 78 had all of their fields and methods traversed.
+   Compiling 1 permutation
+      Compiling permutation 0...
+      Linking per-type JS with 6 new/changed types.
+      Source Maps Enabled
+   Compile of permutations succeeded
+   Compilation succeeded -- 0.488s
+Linking into /home/arjun/gitspace/gwt-ol3/target/gwt/devmode/work/com.github.tdesjardins.ol3.demo.GwtOL3Playground/compile-23/war/gwtol3playground; Writing extras to /home/arjun/gitspace/gwt-ol3/target/gwt/devmode/work/com.github.tdesjardins.ol3.demo.GwtOL3Playground/compile-23/extras/gwtol3playground
+   Link succeeded
+   Linking succeeded -- 0.022s
+0.575s total -- Compile completed

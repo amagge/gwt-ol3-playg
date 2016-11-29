@@ -8,11 +8,23 @@ import jsinterop.annotations.JsType;
  *
  */
 @JsType(isNative = true)
-public class HeatMap extends Vector {
+public class Heatmap extends Vector {
 
-    public HeatMap() {}
+    public Heatmap() {}
 
-    public HeatMap(HeatMapLayerOptions layerOptions) { }
+    public Heatmap(HeatmapOptions layerOptions) {}
+    
+    public native int getBlur();
+    
+    public native String[] getGradient();
+    
+    public native int getRadius();
+    
+    public native void setBlur(int blur);
+    
+    public native void setGradient(String[] colors);
+    
+    public native void setRadius(int radius);
 
 }
 

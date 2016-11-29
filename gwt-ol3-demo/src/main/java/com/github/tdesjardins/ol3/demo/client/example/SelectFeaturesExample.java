@@ -117,12 +117,9 @@ public class SelectFeaturesExample implements Example {
         map.addInteraction(selectFeature);
 
         EventListener<Select.Event> selectListener = new EventListener<Select.Event>() {
-
             @Override
             public void onEvent(Select.Event event) {
-
             	Collection<Feature> selectedFeatures = selectFeature.getFeatures();
-
             	if (selectedFeatures.getLength() > 0) {
             		Feature feature = selectedFeatures.item(0);
             		String output = "You selected feature with id '" + feature.getId() + "'"
@@ -131,9 +128,7 @@ public class SelectFeaturesExample implements Example {
             				+ ".";
             		Window.alert(output);
             	}
-
             }
-
         };
 
         selectFeature.on("select", selectListener);

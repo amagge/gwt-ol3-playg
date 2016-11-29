@@ -53,4 +53,9 @@ public interface VectorOptions extends SourceOptions {
     @JsProperty
     void setWrapX(boolean wrapX);
 
+    @JsProperty
+    void setUrl(String url);
+    
+    @JsProperty
+    void setFormat(ol.format.Feature format);
 }
